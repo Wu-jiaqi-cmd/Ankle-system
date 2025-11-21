@@ -1,0 +1,43 @@
+# 前端相关（Vue/React/Electron 等）
+node_modules/
+dist/
+build/
+.env
+.env.local
+.env.development.local
+npm-debug.log*
+yarn-debug.log*
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# 后端相关（Node.js/Java/Python 等）
+node_modules/
+target/
+out/
+logs/
+*.jar
+*.war
+*.pyc
+__pycache__/
+.venv/
+
+# 大文件/视频（必须过滤！否则上传失败）
+videos/
+video/
+*.webm
+*.mp4
+*.avi
+*.mov
+*.flv
+*.zip
+*.rar
+*.7z
+
+# 其他无用文件
+temp/
+cache/
+*.log
+*.tmp
